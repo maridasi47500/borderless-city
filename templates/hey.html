@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block montitre %}
+debut de mes mots: bienvenue dans borderless city
+{% endblock %}
+{% block content %}
+<h1># borderless-city</h1>
+{% for x in users | reverse %}
+ <li>{{ x["first_name"]  }}</li>
+
+{% endfor %} 
+fin de mes mots : il y a toute une base de données des reseaux sociaux (que réseaux sociaux)
+et l base de données de la ville.
+meteo soleil.
+news il y a un concert dans ma ville/mon pays, en anglais/francasi. 
+discussion obnjour comment ca va .
+image_sharing .pic of the city
+{% endblock %}
+{% block liens %}
+<a href="/">welcome</a>
+{% endblock %}
+<a href="/add_one_user"> add one user</a><a href="/add_one_discussion"> add one discussion</a><a href="/add_one_answer"> add one answer</a><a href="/add_one_image_sharing"> add one image_sharing</a><a href="/add_one_social_post"> add one social_post</a><a href="/add_one_ooh"> add one ooh</a><a href="/add_one_place"> add one place</a><a href="/add_one_language"> add one language</a><a href="/add_one_meteo"> add one meteo</a><a href="/add_one_news"> add one news</a><a href="/add_one_dooh"> add one dooh</a>
