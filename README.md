@@ -1,6 +1,6 @@
 # borderless-city
 hey
-!(example)[./Capture d'écran 2026-10-14 080153.png]
+![example](./Capture d'écran 2026-10-14 080153.png)
 🌐 Out of Home – A City With No Borders
 Une application Rails dans une ville sans pays, sans murs, sans drapeaux. Juste des gens, des voix, et des histoires.
 🌍 Concept général
